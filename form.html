@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/form_style.css" />
+    <title>formplace</title>
+  </head>
+  <body>
+    <div class="container_outside">
+      <div class="container_inside">
+        <h1>Форма</h1>
+        <form action="https://formsubmit.co/50f2d19c75f0661deb59b8521dcae027" method="POST">
+          <input type="text" name="Name" placeholder="Ваше повне ім'я" required />
+          <input type="email" name="Email" placeholder="Електронна скринька" required />
+
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/adaptive_navbar/">
+          <input type="hidden" name="_captcha" value="false" required />
+
+          <select name="Content">
+            <option class="opt_choice">Пропозиція</option>
+            <option>Знайшов баг</option>
+            <option>Cпівпраця</option>
+            <option>Порада</option>
+          </select>
+          <textarea name="Message" placeholder="Ваше повідомлення до автора" required></textarea>
+
+          <div class="buttons_area">
+            <button type="submit" class="btm_submit">Надіслати</button>
+            <a href="./index.html">
+              <button type="button" class="btm_b_to_page">Повернутися до головної сторінки</button>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
