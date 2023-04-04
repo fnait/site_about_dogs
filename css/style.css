@@ -21,7 +21,7 @@ a:active {
 /* ===== Style the top navigation bar ===== */
   .navbar {
     display: flex;
-    background-color: #333;
+    background-color: #022B3A; /*#333; #022B3A;*/
 
     position: sticky;
     top: 0px;
@@ -64,7 +64,7 @@ a:active {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #3e6332;
+    background-color: #1F7A8C; /*#3e6332;  #1F7A8C;*/
   }
   
   li.dropdown {
@@ -97,7 +97,7 @@ a:active {
   }
 
   .active {
-    background-color: #3e6332;
+    background-color: #1F7A8C; /*#3e6332;  #1F7A8C;*/
   }
 
   .active_dropdown {
@@ -180,7 +180,7 @@ a:active {
   }
   
   .fakts_about_dog {
-    background-color: #3e6332;
+    background-color: #1F7A8C; /*#3e6332;  #1F7A8C;*/
     width: 100%;
     padding: 20px;
     color: white;
@@ -253,7 +253,7 @@ a:active {
   .main_aside {
     /* display: inherit; */
     flex: 30%;
-    background-color: #f1f1f1;
+    background-color:  #f1f1f1;
     padding: 20px;
     margin: 0;
   }
@@ -278,7 +278,7 @@ a:active {
 /* ========================================= */
 /* ===== Style the footer ===== */
   footer{
-    background-color: #333;
+    background-color: #022B3A; /*#333; #022B3A;*/
     color: white;
     text-align: center;
   }
@@ -314,7 +314,7 @@ a:active {
   }
 
   footer button{
-    background-color: #3e6332;
+    background-color: #1F7A8C; /*#3e6332;  #1F7A8C;*/
     margin-top: 10px ;
     padding: 5px 10px 5px 10px;
   }
@@ -375,7 +375,7 @@ a:active {
   }
 
   footer button{
-    background-color: #3e6332;
+    background-color: #1F7A8C; /*#3e6332;  #1F7A8C;*/
     margin-top: 10px ;
     padding: 10px 20px 10px 20px;
   }
