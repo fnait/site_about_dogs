@@ -388,4 +388,8 @@ a:active {
   li .dropbtn_active {
     width: 100%;
   }
+
+  .dropdown-content {
+    width: 100%;
+  }
 /* ========================================= */
