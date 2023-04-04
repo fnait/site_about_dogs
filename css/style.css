@@ -381,4 +381,11 @@ a:active {
   }
 }
 
+  li .dropbtn {
+    width: 100%;
+  }
+
+  li .dropbtn_active {
+    width: 100%;
+  }
 /* ========================================= */
