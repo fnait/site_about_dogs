@@ -308,6 +308,10 @@ a:active {
     color: white;
   }
 
+  .footer_inst_link:link{
+    color: white;
+  }
+
   footer button{
     background-color: #3e6332;
     margin-top: 10px ;
